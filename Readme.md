@@ -15,3 +15,17 @@ References:
 
 - https://stackoverflow.com/questions/9407442/optimise-postgresql-for-fast-testing
 - http://michael.robellard.com/2015/07/dont-test-with-sqllite-when-you-use.html
+
+## Tips for writing tests
+
+- Do all schema setup (DDL) once before running the tests
+- Run the schema setup (DDL), as the DB migration that would run in production
+- Avoid DDL in each test, as that tent to be very slow
+- Before each test, truncate the tables and put some seed data (DML), that should be quick
+- Remember fasts tests are important, slow tests make you avoid refactoring code!
+
+
+## TODO
+
+- Tweak `shared_buffers`
+- Tweak `work_mem`
