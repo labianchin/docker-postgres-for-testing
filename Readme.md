@@ -2,6 +2,10 @@
 # Docker Postgres For Testing
 
 [![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://registry.hub.docker.com/u/labianchin/docker-postgres-for-testing/)
+[![Docker Stars](https://img.shields.io/docker/stars/labianchin/docker-postgres-for-testing.svg)](https://registry.hub.docker.com/u/labianchin/docker-postgres-for-testing/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/labianchin/docker-postgres-for-testing.svg)](https://registry.hub.docker.com/u/labianchin/docker-postgres-for-testing/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/labianchin/docker-postgres-for-testing/latest.svg)](https://imagelayers.io/?images=labianchin/docker-postgres-for-testing:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/labianchin/docker-postgres-for-testing/latest.svg)](https://imagelayers.io/?images=labianchin/docker-postgres-for-testing:latest)
 
 This a docker image based in the [official Postgres 9.4 docker image](https://registry.hub.docker.com/_/postgres/) tweaked for database testing.
 
