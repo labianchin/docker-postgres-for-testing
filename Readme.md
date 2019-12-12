@@ -7,7 +7,7 @@
 [![Image Size](https://img.shields.io/imagelayers/image-size/dhlparcel/docker-postgres-for-testing/latest.svg)](https://imagelayers.io/?images=dhlparcel/docker-postgres-for-testing:latest)
 [![Image Layers](https://img.shields.io/imagelayers/layers/dhlparcel/docker-postgres-for-testing/latest.svg)](https://imagelayers.io/?images=dhlparcel/docker-postgres-for-testing:latest)
 
-This a docker image based in the [official Postgres 9.4 docker image](https://registry.hub.docker.com/_/postgres/) tweaked for database testing.
+This a docker image based in the [official Postgres 11.5 docker image](https://registry.hub.docker.com/_/postgres/) tweaked for database testing.
 
 It basically configure things like turning off write ahead log (`fsync=off`) to make it faster. Notice that this can make the database more likely to be in an inconsistent state, if the case of a server crash. This is not a problem for database testing as we are more concerned with fast feedback and not about loosing data.
 
