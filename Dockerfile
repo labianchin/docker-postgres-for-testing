@@ -1,4 +1,4 @@
-FROM postgres:11.5
+FROM postgres:11.13
 
 MAINTAINER labianchin
 
