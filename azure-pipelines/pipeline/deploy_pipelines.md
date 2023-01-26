@@ -1,0 +1,1 @@
+Build pipeline is available [here](https://dev.azure.com/dhlnl/SelfBilling/_build?definitionScope=%5Cdocker-postgres-for-testing
